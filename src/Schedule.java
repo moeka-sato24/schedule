@@ -5,16 +5,20 @@ public class Schedule {
     List<String> scheduleListAM = new ArrayList<>(31);
     List<String> scheduleListPM = new ArrayList<>(31);
 
-    public Schedule() {
+
+    public void setScheduleList(int day, int time ,String plan) {
+
     }
 
-    public void setScheduleListAM(List<String> scheduleListAM) {
-        this.scheduleListAM = scheduleListAM;
+    public String getScheduleList() {
+        return ;
     }
 
-    public void setScheduleListPM(List<String> scheduleListPM) {
-        this.scheduleListPM = scheduleListPM;
+    public void remove(int day, int time){
+        //nullのときにERROR
     }
 
+    public void display(){
 
+    }
 }
