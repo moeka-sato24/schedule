@@ -2,9 +2,11 @@ import static org.junit.Assert.*;
 
 public class ScheduleTest {
 
+    @Before
+    Schedule schedule;
+
     @org.junit.Test
     public void setScheduleListテスト() {
-
     }
 
     @org.junit.Test
@@ -18,6 +20,7 @@ public class ScheduleTest {
     @org.junit.Test
     public void displayテスト() {
     }
+
 
 
 
